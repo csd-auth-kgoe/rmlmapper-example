@@ -16,8 +16,16 @@ import java.util.Map;
 public class Example1 {
 
     public static void main(String[] args) {
+        String rootFolder = "./src/main/resources/";
+        String templateFile = "airports/airport-codes-small.mappings_1.ttl";
+        String outputFile = "airports/results_2.ttl";
+
         try {
-            String mapPath = "./src/main/resources/vaccination_data.mappings_1.ttl"; //path to the mapping file that needs to be
+            String mapPath = rootFolder + templateFile;
+            //path to
+            // the
+            // mapping
+            // file that needs to be
             // executed
             File mappingFile = new File(mapPath);
 
@@ -51,7 +59,7 @@ public class Example1 {
             out.close();
 
             // Output the results in a file
-            String outPath = "./src/main/resources/results_1.ttl";
+            String outPath = rootFolder + outputFile;
             Writer output = new FileWriter(outPath);
             result.write(output, "turtle");
             output.close();
