@@ -22,11 +22,7 @@ public class Example1 {
 
         try {
             String mapPath = rootFolder + templateFile;
-            //path to
-            // the
-            // mapping
-            // file that needs to be
-            // executed
+            //path to the mapping file that needs to be executed
             File mappingFile = new File(mapPath);
 
             // Get the mapping string stream
