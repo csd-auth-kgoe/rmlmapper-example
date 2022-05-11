@@ -1,0 +1,16 @@
+{
+  "vaccinations": [
+    {
+      "id": "366863",
+      "species": "dog",
+      "name": "Fido",
+      "expiration_date": "2020"
+    },
+    {
+      "id": "775304",
+      "species": "cat",
+      "name": "Mytsie",
+      "expiration_date": "2019"
+    }
+  ]
+}

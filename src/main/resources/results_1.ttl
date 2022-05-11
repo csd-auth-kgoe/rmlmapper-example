@@ -1,0 +1,10 @@
+
+<http://vaccination.example.com/data/366863> a <http://vaccination.example.com/schema/Vaccination>;
+  <http://vaccination.example.com/schema/date> "2020"^^<http://www.w3.org/2001/XMLSchema#gYear>;
+  <http://vaccination.example.com/schema/species> "dog";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Fido" .
+
+<http://vaccination.example.com/data/775304> a <http://vaccination.example.com/schema/Vaccination>;
+  <http://vaccination.example.com/schema/date> "2019"^^<http://www.w3.org/2001/XMLSchema#gYear>;
+  <http://vaccination.example.com/schema/species> "cat";
+  <http://www.w3.org/2000/01/rdf-schema#label> "Mytsie" .
