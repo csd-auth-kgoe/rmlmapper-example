@@ -7,7 +7,7 @@
 @prefix dc: <http://purl.org/dc/terms/>.
 @prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
 @prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
-@prefix domain: <http://airport.example.com/>.
+@prefix domain: <http://www.examples.org/airports#>.
 
 @base <http://airport.example.com/data/>.
 
